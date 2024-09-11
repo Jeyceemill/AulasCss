@@ -1,0 +1,37 @@
+/* Elementos textuais */
+/* font-weight - negrito -não tem import. não dá ênfase */
+/* line-height - aumneta o espaço entre as linhas*/ 
+/* text-align - alinhamento de texto, left,right, center e justify*/
+/* text-shadow - */
+/* text-indent- indentação do texto */
+/* filter -Op. */
+/* span */
+
+span{
+    /* font-size: 500; */
+    /* font-weight: bold; */
+    font-style: italic;
+
+}
+
+strong{
+    font-weight: 100;
+}
+
+p{
+    text-indent: 50px;
+    line-height: 250%;
+}
+
+article{
+    font-style: italic;
+    color: orange;
+    text-align: right;
+    text-indent: 50px;
+}
+
+
+p{
+    justify-content: left;
+}
+
