@@ -1,0 +1,17 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+h1{
+    color: red;
+}
+
+h1:hover{
+ color: blue;
+ font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+ float: right;
+}
+
+

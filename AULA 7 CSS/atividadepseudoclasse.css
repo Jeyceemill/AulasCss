@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+h1:first-child{
+    margin: 10px;
+    padding: auto;
+    color: blueviolet;
+}
+p:only-of-type{
+    width: 10px;
+    height: 1px;
+    color: yellowgreen;
+}
+
+a:link{
+    width: 15px;
+    height: 10px;
+    color: brown;
+
+}
+
+#elemento ::after {
+    content: url(https://www.animaisbrasil.com.br/608-large_default/piton-bola-python-regius-a821.jpg) 🐱‍🏍;
+
+}
+
+#elemento ::

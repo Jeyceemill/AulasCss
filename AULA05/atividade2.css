@@ -42,6 +42,10 @@ footer{
   height: 25vh;
 
 } */
+
+@charsert UTF-8{
+
+}
 *{
   margin: 0;
   padding: 0;
@@ -61,26 +65,37 @@ header > img{
 }
 header > nav > a{
   text-decoration: none;
-  color: #D97D48;
+  color: white;
   margin: 20px;
   
 
 }
 
 main{
+  text-align: left;
+  color: white;
   height: 80vh;
-  background-color: #D97D48;
+  background-color:  #A61723;
+
+}
+
+main > img{
+  margin: 20px;
+  width: 60 vw;
+  
+  
 }
 
 article{
   height: 30vh;
-  background-color: aqua;
+  width: 30vw;
+  color: #A61723;
 }
 
 footer{
   height: 30vh;
-  background-color: black;
-  color: beige;
+  background-color: #A61723;
+  color: white;
   text-align: center;
   font-size: 2em;
 }
