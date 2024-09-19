@@ -1,0 +1,24 @@
+*{
+    margin: 0;
+    padding: 0;
+    /* font-size: 60, 50; */
+}
+
+ .primeiro{
+    /* padding: 150 px;
+     padding-top: 10px;
+     padding-right: 20px;
+     padding-bottom: 30px;
+     padding-left: 40px; */
+     /* padding: 10px, 20px, 40px, 60px; */
+     /* border: solid 10px, 20px; */
+     /* padding:  10px,20px; */
+
+     padding:  10px,20px, 30px;
+
+   
+ }  
+
+ .segundo{
+    margin: 50px;
+ }

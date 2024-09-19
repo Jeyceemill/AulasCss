@@ -1,0 +1,42 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-style: normal;
+
+}
+
+.olamundo {
+
+    background-color: #333;
+    color: white;
+    border-left: solid red;
+    border-right: solid red;
+    border-top: dotted 5px, red;
+    border-bottom: solid 15px red;
+
+ padding: 18px;
+
+
+
+
+}
+
+.segunda{
+
+    a {
+        background-color: #333;
+        text-decoration: none;
+        color: white;
+        padding: 2px;
+
+    }
+}
+
+.terceira {
+    padding: 15px, 0px,0px, 0px;
+    line-height: 24px;
+}
+
+img {
+    height: 250px;
+}

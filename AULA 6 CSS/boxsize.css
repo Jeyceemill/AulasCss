@@ -1,0 +1,25 @@
+div {
+    border: solid 1px;
+    width: 250vw;
+    height: 250vh;
+    margin: 10px;
+}
+
+#box1 {
+    padding: 10px;
+    border-color: blueviolet;
+    border-style: dotted;
+    border-width: 5px;
+    box-sizing: border-box;
+    /*  */
+
+}
+
+#box2{
+    padding: 10px;
+    border-color: blueviolet;
+    border-style: dotted;
+    border-width: 5px;
+    box-sizing: content-box;
+  
+}

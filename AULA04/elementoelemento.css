@@ -1,0 +1,18 @@
+p{
+    color: blue;
+}
+/* todos os parágrafos ficarão azul em (ul p{}  */
+
+ul p{
+color: red;
+
+
+}
+
+/* apenas o paragrafo dentro da ul ficará  vermelho" */
+
+li, p, .cachorro, #gato{
+    text-shadow: 10px 5px 5px blueviolet;
+}
+
+

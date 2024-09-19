@@ -1,0 +1,49 @@
+* {
+    margin: 0;
+    padding: 0;
+    color: whitesmoke;
+}
+
+.box1 {
+    width: 250px;
+    height: 250px;
+    background-color: rgba(0, 0, 255, 0.672);
+}
+
+.box2 {
+    /* rem / em (unidades relativas) aqui ele considera a unidade padrão pois não declaramos no root   */
+    /* VH/VW/VWMIM/VWMAX */
+    /* Border radius em porcentagem, ele "arrendonda" as formas */
+    /* vmax tamanho máximo 10 por cento 
+    vmin tamanho minimo da tela 10 por cento */
+    /* vh -altura vw- largura
+    ex:display: 800px valor máximo
+    600px valor mínimo (20 por cento)
+    width= 20 vmax(160px) and width= 20vmin (120px); */
+
+
+
+    width: 100vw;
+    height: 80vh;
+    background-color: blueviolet;
+    /* margin: 5px; */
+    
+
+}
+
+
+
+
+.box3 {
+    width: 100vw;
+    height: 10vh;
+    background-color: rgb(69, 176, 24);
+
+}
+
+.box4 {
+    width: 100vw;
+    height: 10vh;
+    background-color: burlywood;
+
+}

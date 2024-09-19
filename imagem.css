@@ -1,0 +1,25 @@
+body{
+    background-image: url(https://cdn.awsli.com.br/2500x2500/1382/1382878/produto/2405798756d5433e1d4.jpg);
+    background-size: 400px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* body{
+    background-image: url(AULA04/1351807.png);
+}
+ */
+
+ /*      background-size: cover; - cobre a imagem */
+
+
+
+
+
+img{
+    width: 150px;
+    height: 100px;
+    border-radius: 600px;
+}
+
+
