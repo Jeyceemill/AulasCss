@@ -1,0 +1,128 @@
+ .container {
+    border: solid 1px;
+    height: 800px;
+    width: 800px;
+    margin: 25px auto;
+    background-color: silver;
+
+    font-display: flex;
+    flex: wrap-reverse;
+    align-items: flex-start;
+
+ }
+ 
+ 
+ .box c1 {
+    height: 100px;
+    width: 150px;
+    border: solid 1px;
+    margin: 5px;
+    color: white;
+    font-size: 1.5em;
+    text-align: center;
+    
+
+
+}
+
+
+  /* .container { */
+        /* border: solid 1px; */
+        /* height: 800px; */
+        /* width: 800px; */
+        /* margin: 25px auto; */
+        /* background-color: silver; */
+        /* display: flex;  */
+        /* vai mudar o layout do display */
+        /* flex-direction: row; */
+       /* Muda o comportamento do container */
+       /* flex-direction: row-reverse; */
+       /* flex-direction: column; */
+       /* flex-direction: column-reverse; */
+       /* flex-direction: row; */
+
+       /* Padrão de escrita */
+       /* direction: ltr; da esquerda para a direita  */
+    
+    
+       /* direction: rtl; da direita para a esquerda */
+       
+
+    /* } */
+
+
+    /* display inline não permite mudar:heigth e width
+    display none - remove  o elemento e tela
+    display block - permite que você altere a height e width
+    display inline block - em linha permite alterar heigth e width
+     */
+
+/* Faz a quebra dos elementos na linha ou coluna - flex-derection define  o comportamento */
+  
+    /* flex-wrap: wrap;  */
+    
+   
+    /*  flex-wrap: nowrap; */
+    
+    
+    /* flex-rap: wrap-reverse; */
+
+    /* Equivalente aos elementos anteriores flex-direction: row
+    flex-wrap: nowrap*/
+/*flex-flow: row wrap;
+/* Alinhamento seguindo a orientação do main */
+    /* justify-content: center; */
+    /* justify-content: flex-end; */
+    /* justify-content:flex-start; */
+    /* justify-content: space aroud;  */
+    /* justify-content: space between; */
+    /* justify-content: space evenly; -  realoca o Espaçamento entre as caixas */
+    /* justify-content: end; */
+    /* justify-content: start; */
+
+
+    
+/* Alinhamento seguindo a orientação do cross axis */
+/* align-items: end; */
+/* align-items: center; */
+/* align-items: center; */
+/*  align-content: start; */
+
+/* align-items: flex-end; */
+
+
+
+.c1 {
+    background-color: green;
+    /* order: -3; */
+    /* flex-grow: 4; */
+    /* flex-shrink: 3; */
+    flex: basis 20%;
+    
+ 
+ }
+ 
+ .c2 {
+     
+    background-color: red; 
+    order: 2;
+
+     
+ 
+ }
+ 
+ .c3 {
+     background-color: yellow;
+     order: 1;
+ }
+ 
+
+
+
+
+
+
+
+
+    
+   
