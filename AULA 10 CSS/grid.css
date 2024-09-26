@@ -1,0 +1,44 @@
+.container {
+    height: 700px;
+    width: 800px;
+    margin: 50 auto;
+    background-color: black;
+    border: dotted 1px green;
+    display: grid;
+
+    /* grid-template-columns: 25% 25% 25% 25%;  */
+    /* grid-template-columns: 200px 200px 200px 200px;  */
+
+    grid-template-columns: repeat(5, 20%);
+    grid-template-rows: repeat(5, 1fr);
+    grid-template-areas:  
+    "header header header header header" "propaganda propaganda main main main"
+        "propaganda propaganda main main main"
+        "propaganda propaganda main main main"
+        "footer footer footer footer footer"
+
+    ;
+
+}
+
+.box1 {
+    grid-area: header;
+    background-color: green;
+    text-align: center;
+}
+
+.box2 {
+    grid-area: propaganda;
+    background-color: beige;
+
+}
+
+.box3 {
+    grid-area: main;
+    background-color: gold;
+}
+
+.box4 {
+    grid-area: footer;
+    background-color: aquamarine;
+}
