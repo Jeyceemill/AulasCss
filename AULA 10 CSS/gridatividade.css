@@ -1,8 +1,8 @@
 .container {
-    height: 800px;
-    width: 1000px;
+    height: 500px;
+    width: 800px;
     margin: 50px;
-    background-color: white;
+    background-color: bisque;
     border:dotted 1px;
     display: grid;
 
@@ -37,13 +37,13 @@ grid-template-areas:
 }
 
 .box3 {
-    grid-area:
+    grid-area: main
     background-color: blue;
 
 }
 .box4 {
     grid-area: section;
-    background-color:;
+    background-color: purple;
 
 }
 
@@ -67,6 +67,6 @@ grid-template-areas:
 
 .box8 {
     grid-area:
-    background-color: ;
+    background-color: footer;
 
 }
