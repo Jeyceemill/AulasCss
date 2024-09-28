@@ -12,7 +12,8 @@
     grid-template-columns: repeat(5, 20%);
     grid-template-rows: repeat(5, 1fr);
     grid-template-areas:  
-    "header header header header header" "propaganda propaganda main main main"
+    "header header header header header" 
+    "propaganda propaganda main main main"
         "propaganda propaganda main main main"
         "propaganda propaganda main main main"
         "footer footer footer footer footer"

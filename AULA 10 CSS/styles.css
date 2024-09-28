@@ -1,0 +1,78 @@
+@charset utf-8 * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f0f0;
+}
+
+container {
+    height: 600px;
+    width: 800px;
+    margin: 50px auto;
+    background-color: black;
+    border: dotted 1px green;
+    display: grid;
+    grid-template-columns: repeat(7, 2fr); 
+    grid-template-rows: repeat(10, 2fr);
+    grid-template-areas:
+   
+        "header header header header header header header"
+        "header header header header header header header"
+        "ads ads ads ads ads link link"
+        "main main main main main main main"
+        " texto texto texto "
+        "main main main main main main main"
+        ""
+        "div7 div7 div7 div7 div7 div7 div7"
+        "div8 div8 div8 div8 div8 div8 div8"
+        "div8 div8 div8 div8 div8 div8 div8"
+        "div8 div8 div8 div8 div8 div8 div8";
+   
+}
+
+.header {
+    grid-area: header;
+    background-color: #c2c500;
+}
+
+.ads2 {
+    grid-area: ad2s;
+    background-color: #b1d7af;
+}
+
+.link {
+    grid-area: link;
+    background-color: #2b5dbf;
+}
+
+.main {
+    grid-area: main;
+    background-color: #8e4a1b;
+}
+
+.texto {
+    grid-area: texto;
+    background-color: #5a3a13;
+}
+
+.imagem {
+    grid-area: imagem;
+    background-color: #222020;
+}
+
+.article {
+    grid-area: article;
+    background-color: #7257a5;
+}
+
+.footer {
+    grid-area: footer;
+    background-color: #d97b45;
+}
